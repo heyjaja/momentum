@@ -1,8 +1,12 @@
-const title = document.querySelector(".hello h1");
+const h1 = document.querySelector(".hello h1");
 
 function handleTitleClick() {
-	
-    title.style.color = "blue";
+    const clickedClass = "active";
+    if(h1.className === clickedClass) {
+        h1.className = "";
+    } else {
+        h1.className = clickedClass;
+    }
 }
 
-title.addEventListener("click", handleTitleClick);
+h1.addEventListener("click", handleTitleClick);
