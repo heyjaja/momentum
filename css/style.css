@@ -1,3 +1,83 @@
 .hidden{
     display:none;
 }
+
+body{
+    background-size: cover;
+}
+
+#clock{
+    color: #0ff70b;
+    font-size: 50px;
+    margin:0;
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#quote{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#weather{
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+#greeting{
+    color: #e20014;
+    font-size: 70px;
+}
+
+#quote span:first-child{
+    font-size: 14px;
+    color: #02c3ee;
+}
+
+#quote span:last-child{
+    font-size: 13px;
+    color: white;
+}
+
+#todo-list{
+    color: #ff2a87;
+}
+
+#login-form input[type=text]{
+    appearance:none;
+    background:none;
+    border:none;
+    font-size: 50px;
+    border-bottom: 2px solid white;
+    color: #e20014;
+    margin: 69px;
+}
+
+#login-form input[type=submit]{
+    display:none;
+}
+
+#todo-form input[type=text]{
+    appearance:none;
+    background:none;
+    border:none;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    color: #ff2a87;
+}
+
+button {
+    appearance:none;
+    background:none;
+    border:none;
+}

@@ -2,8 +2,7 @@ const images = ["1994.jpg","1978.jpg","1666.jpg"];
 
 const chosenImage = images[Math.floor(Math.random()*images.length)];
 
-const bgImage = document.createElement("img");
+const body = document.querySelector("body");
 
-bgImage.src = `img/${chosenImage}`;
+body.style.backgroundImage = `url(img/${chosenImage})`;
 
-document.body.appendChild(bgImage);
